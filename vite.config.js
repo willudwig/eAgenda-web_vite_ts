@@ -21,7 +21,7 @@ export default defineConfig ( {
             compromissoCreate: resolve(root, "compromissos/compromisso.create.html"),
             contatoCreate: resolve(root, "contatos/contato.create.html"),
             tarefaCreate: resolve(root, "tarefas/tarefa.create.html"),
-            itemCreate: resolve(root, "itens/item.create.html"),
+            itemCreate: resolve(root, "itens/item.create.html")
          }
       }
    },
