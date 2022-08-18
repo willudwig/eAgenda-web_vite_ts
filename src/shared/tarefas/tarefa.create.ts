@@ -1,9 +1,9 @@
-import { Tarefa } from "./tarefa.model.js";
-import { Prioridade } from "./prioridade.enum.js";
+import { Tarefa } from "./models/tarefa.model.js";
+import { Prioridade } from "./models/prioridade.enum.js";
 import { IPaginaHTML } from "../interfaces/pagina.html.interface.js";
 import { IRepositorio } from "../interfaces/repositorio.interface.js";
 import { IPaginaFormulario } from "../interfaces/pagina.ceate.interface.js";
-import { TarefaRepositoryLocalStorage } from "./tarefa.repository.local-storage.js";
+import { TarefaRepositoryLocalStorage } from "./repositories/tarefa.repository.local-storage.js";
 import { ItemRepositoryLocalStorage } from "./itens/item.repository.local-storage.js";
 import { Item } from "./itens/item.model.js";
 
@@ -98,14 +98,12 @@ export class TarefaPaginaCadastro implements IPaginaHTML, IPaginaFormulario
          return "0%";
       
       let concluidos = 0;
-      let abertos = 0;
+
       
       itensDestaTarefa.forEach(x => {
 
          if(x.status === "Concluído")
             concluidos++;
-         else
-            abertos++;
       });
 
       porcentagem = (porcentagem * concluidos) / itensDestaTarefa.length;

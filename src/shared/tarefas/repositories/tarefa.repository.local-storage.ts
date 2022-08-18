@@ -1,6 +1,6 @@
-import { IRepositorioSerializavel } from "../interfaces/repositorio-serializavel.interface.js";
-import { IRepositorio } from "../interfaces/repositorio.interface.js";
-import { Tarefa } from "./tarefa.model.js";
+import { IRepositorioSerializavel } from "../../interfaces/repositorio-serializavel.interface.js";
+import { IRepositorio } from "../../interfaces/repositorio.interface.js";
+import { Tarefa } from "../models/tarefa.model.js";
 
 export class TarefaRepositoryLocalStorage implements IRepositorio<Tarefa>, IRepositorioSerializavel 
 {
