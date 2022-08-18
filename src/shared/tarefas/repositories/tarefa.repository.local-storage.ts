@@ -2,6 +2,7 @@ import { IRepositorioSerializavel } from "../../interfaces/repositorio-serializa
 import { IRepositorio } from "../../interfaces/repositorio.interface";
 import { Tarefa } from "../models/tarefa.model";
 
+
 export class TarefaRepositoryLocalStorage implements IRepositorio<Tarefa>, IRepositorioSerializavel 
 {
    private readonly localStorage: Storage;

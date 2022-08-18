@@ -1,10 +1,11 @@
 import { Tarefa } from "./models/tarefa.model";
+import { Item } from "../itens/models/item.model";
 import { IPageList } from "../interfaces/pagina.list.inteface";
 import { IPaginaHTML } from "../interfaces/pagina.html.interface";
 import { IRepositorio } from "../interfaces/repositorio.interface";
 import { TarefaRepositoryLocalStorage } from "./repositories/tarefa.repository.local-storage";
 import { ItemRepositoryLocalStorage } from "../itens/repositories/item.repository.local-storage";
-import { Item } from "../itens/models/item.model.js";
+
 
 class TarefaPageList implements IPaginaHTML, IPageList {
   

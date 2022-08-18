@@ -2,8 +2,8 @@ import { Compromisso } from "./models/compromisso.model";
 import { IPaginaHTML } from "../interfaces/pagina.html.interface";
 import { IRepositorio } from "../interfaces/repositorio.interface";
 import { IPaginaFormulario } from "../interfaces/pagina.ceate.interface";
-import { CompromissoRepositoryLocalStorage } from "./repositories/compromisso.repository.local-storage";
 import { ContatoRepositoryLocalStorage } from "../contatos/repositories/contato.repository.local-storage";
+import { CompromissoRepositoryLocalStorage } from "./repositories/compromisso.repository.local-storage";
 
 export class CompromissoPaginaCadastro implements IPaginaHTML, IPaginaFormulario
 {

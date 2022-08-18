@@ -1,5 +1,6 @@
 import { EntidadeBase } from "../../entidade.model";
 
+
 export class Compromisso extends EntidadeBase  
 {
    public assunto: string;
