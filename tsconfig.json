@@ -16,7 +16,7 @@
     "noImplicitReturns": true,
     "skipLibCheck": true,
 
-    "outDir": "./dist",                                   /* Specify an output folder for all emitted files. */
+   //"outDir": "./dist",                                   /* Specify an output folder for all emitted files. */
     "forceConsistentCasingInFileNames": true,            /* Ensure that casing is correct in imports. */
     "strictPropertyInitialization": false,             /* Check for class properties that are declared but not set in the constructor. */
   },

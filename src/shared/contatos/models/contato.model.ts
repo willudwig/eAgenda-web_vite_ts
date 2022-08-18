@@ -1,4 +1,4 @@
-import { EntidadeBase } from "../../entidade.model.js";
+import { EntidadeBase } from "../../entidade.model";
 
 export class Contato extends EntidadeBase  
 {

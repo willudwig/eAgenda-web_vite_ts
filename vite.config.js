@@ -14,8 +14,15 @@ export default defineConfig ( {
          input: {
             index: resolve(root, "index.html"),
             tarefaList: resolve(root, "tarefas/tarefa.list.html"),
+            itemfaList: resolve(root, "itens/item.list.html"),
+            contatofaList: resolve(root, "contatos/contato.list.html"),
+            compromissoList: resolve(root, "compromissos/comprmisso.list.html"),
+
             tarefaCreate: resolve(root, "tarefas/tarefa.create.html"),
-            Create: resolve(root, "tarefas/tarefa.create.html"),
+            itemCreate: resolve(root, "itens/item.create.html"),
+            contatoCreate: resolve(root, "contatos/contato.create.html"),
+            compromissoCreate: resolve(root, "compromissos/compromisso.create.html"),
+           
             
          }
       }

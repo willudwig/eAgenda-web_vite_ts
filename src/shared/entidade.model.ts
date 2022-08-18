@@ -1,4 +1,4 @@
-import { Guid } from "./guid.model.js";
+import { Guid } from "./guid.model";
 
 export abstract class EntidadeBase 
 {
