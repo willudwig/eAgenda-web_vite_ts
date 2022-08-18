@@ -1,4 +1,4 @@
-import { Item } from "./item.model.js";
+import { Item } from "../models/item.model.js";
 import { IRepositorio } from "../../interfaces/repositorio.interface.js";
 import { IRepositorioSerializavel } from "../../interfaces/repositorio-serializavel.interface.js";
 

@@ -1,8 +1,8 @@
-import { Item } from "./item.model.js";
-import { IPageList } from "../../interfaces/pagina.list.inteface.js";
-import { IPaginaHTML } from "../../interfaces/pagina.html.interface.js";
-import { IRepositorio } from "../../interfaces/repositorio.interface.js";
-import { ItemRepositoryLocalStorage } from "./item.repository.local-storage.js";
+import { Item } from "./models/item.model.js";
+import { IPageList } from "../interfaces/pagina.list.inteface.js";
+import { IPaginaHTML } from "../interfaces/pagina.html.interface.js";
+import { IRepositorio } from "../interfaces/repositorio.interface.js";
+import { ItemRepositoryLocalStorage } from "./repositories/item.repository.local-storage.js";
 
 class ItemPageList implements IPaginaHTML, IPageList {
   

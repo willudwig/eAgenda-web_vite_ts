@@ -1,6 +1,6 @@
-import { IRepositorioSerializavel } from "../interfaces/repositorio-serializavel.interface";
-import { IRepositorio } from "../interfaces/repositorio.interface";
-import { Contato } from "./contato.model.js";
+import { IRepositorioSerializavel } from "../../interfaces/repositorio-serializavel.interface";
+import { IRepositorio } from "../../interfaces/repositorio.interface";
+import { Contato } from "../models/contato.model.js";
 
 export class ContatoRepositoryLocalStorage implements IRepositorio<Contato>, IRepositorioSerializavel 
 {

@@ -1,8 +1,8 @@
-import { Compromisso } from "./compromisso.model.js";
+import { Compromisso } from "./models/compromisso.model.js";
 import { IPageList } from "../interfaces/pagina.list.inteface.js";
 import { IPaginaHTML } from "../interfaces/pagina.html.interface.js";
 import { IRepositorio } from "../interfaces/repositorio.interface.js";
-import { CompromissoRepositoryLocalStorage } from "./compromisso.repository.local-storage.js";
+import { CompromissoRepositoryLocalStorage } from "./repositories/compromisso.repository.local-storage.js";
 
 class CompromissoPageList implements IPaginaHTML, IPageList {
   

@@ -4,8 +4,8 @@ import { IPaginaHTML } from "../interfaces/pagina.html.interface.js";
 import { IRepositorio } from "../interfaces/repositorio.interface.js";
 import { IPaginaFormulario } from "../interfaces/pagina.ceate.interface.js";
 import { TarefaRepositoryLocalStorage } from "./repositories/tarefa.repository.local-storage.js";
-import { ItemRepositoryLocalStorage } from "./itens/item.repository.local-storage.js";
-import { Item } from "./itens/item.model.js";
+import { ItemRepositoryLocalStorage } from "../itens/repositories/item.repository.local-storage.js";
+import { Item } from "../itens/models/item.model.js";
 
 export class TarefaPaginaCadastro implements IPaginaHTML, IPaginaFormulario
 {

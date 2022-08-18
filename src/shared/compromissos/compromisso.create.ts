@@ -1,9 +1,9 @@
-import { Compromisso } from "./compromisso.model.js";
+import { Compromisso } from "./models/compromisso.model.js";
 import { IPaginaHTML } from "../interfaces/pagina.html.interface.js";
 import { IRepositorio } from "../interfaces/repositorio.interface.js";
 import { IPaginaFormulario } from "../interfaces/pagina.ceate.interface.js";
-import { CompromissoRepositoryLocalStorage } from "./compromisso.repository.local-storage.js";
-import { ContatoRepositoryLocalStorage } from "../contatos/contato.repository.local-storage.js";
+import { CompromissoRepositoryLocalStorage } from "./repositories/compromisso.repository.local-storage.js";
+import { ContatoRepositoryLocalStorage } from "../contatos/repositories/contato.repository.local-storage.js";
 
 export class CompromissoPaginaCadastro implements IPaginaHTML, IPaginaFormulario
 {
