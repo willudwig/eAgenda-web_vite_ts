@@ -1,7 +1,7 @@
 import { Contato } from "./models/contato.model";
-import { IPageList } from "../interfaces/pagina.list.inteface";
-import { IPaginaHTML } from "../interfaces/pagina.html.interface";
-import { IRepositorio } from "../interfaces/repositorio.interface";
+import { IPageList } from "../shared/interfaces/pagina.list.inteface";
+import { IPaginaHTML } from "../shared/interfaces/pagina.html.interface";
+import { IRepositorio } from "../shared/interfaces/repositorio.interface";
 import { ContatoRepositoryLocalStorage } from "./repositories/contato.repository.local-storage";
 
 class ContatoPageList implements IPaginaHTML, IPageList {

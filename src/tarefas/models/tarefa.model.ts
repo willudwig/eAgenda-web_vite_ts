@@ -1,4 +1,4 @@
-import { EntidadeBase } from "../../entidade.model";
+import { EntidadeBase } from "../../shared/entidade.model";
 import { Prioridade } from "./prioridade.enum";
 
 export class Tarefa extends EntidadeBase  

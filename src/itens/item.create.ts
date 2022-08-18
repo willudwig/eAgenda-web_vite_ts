@@ -1,7 +1,7 @@
 import { Item } from "./models/item.model";
-import { IPaginaHTML } from "../interfaces/pagina.html.interface";
-import { IRepositorio } from "../interfaces/repositorio.interface";
-import { IPaginaFormulario } from "../interfaces/pagina.ceate.interface";
+import { IPaginaHTML } from "../shared/interfaces/pagina.html.interface";
+import { IRepositorio } from "../shared/interfaces/repositorio.interface";
+import { IPaginaFormulario } from "../shared/interfaces/pagina.ceate.interface";
 import { ItemRepositoryLocalStorage } from "./repositories/item.repository.local-storage";
 import { TarefaRepositoryLocalStorage } from "../tarefas/repositories/tarefa.repository.local-storage";
 

@@ -1,12 +1,11 @@
 import { Tarefa } from "./models/tarefa.model";
 import { Item } from "../itens/models/item.model";
 import { Prioridade } from "./models/prioridade.enum";
-import { IPaginaHTML } from "../interfaces/pagina.html.interface";
-import { IRepositorio } from "../interfaces/repositorio.interface";
-import { IPaginaFormulario } from "../interfaces/pagina.ceate.interface";
+import { IPaginaHTML } from "../shared/interfaces/pagina.html.interface";
+import { IRepositorio } from "../shared/interfaces/repositorio.interface";
+import { IPaginaFormulario } from "../shared/interfaces/pagina.ceate.interface";
 import { TarefaRepositoryLocalStorage } from "./repositories/tarefa.repository.local-storage";
 import { ItemRepositoryLocalStorage } from "../itens/repositories/item.repository.local-storage";
-
 
 export class TarefaPaginaCadastro implements IPaginaHTML, IPaginaFormulario
 {

@@ -13,7 +13,7 @@ export default defineConfig ( {
       rollupOptions: {
          input: {
             index: resolve(root, "index.html"),
-            compromissoList: resolve(root, "compromissos/comprmisso.list.html"),
+            compromissoList: resolve(root, "compromissos/compromisso.list.html"),
             contatofaList: resolve(root, "contatos/contato.list.html"),
             tarefaList: resolve(root, "tarefas/tarefa.list.html"),
             itemfaList: resolve(root, "itens/item.list.html"),

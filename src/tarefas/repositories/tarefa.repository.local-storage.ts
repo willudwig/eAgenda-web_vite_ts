@@ -1,7 +1,6 @@
-import { IRepositorioSerializavel } from "../../interfaces/repositorio-serializavel.interface";
-import { IRepositorio } from "../../interfaces/repositorio.interface";
+import { IRepositorioSerializavel } from "../../shared/interfaces/repositorio-serializavel.interface";
+import { IRepositorio } from "../../shared/interfaces/repositorio.interface";
 import { Tarefa } from "../models/tarefa.model";
-
 
 export class TarefaRepositoryLocalStorage implements IRepositorio<Tarefa>, IRepositorioSerializavel 
 {

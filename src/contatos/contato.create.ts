@@ -1,7 +1,7 @@
 import { Contato } from "./models/contato.model";
-import { IPaginaHTML } from "../interfaces/pagina.html.interface";
-import { IRepositorio } from "../interfaces/repositorio.interface";
-import { IPaginaFormulario } from "../interfaces/pagina.ceate.interface";
+import { IPaginaHTML } from "../shared/interfaces/pagina.html.interface";
+import { IRepositorio } from "../shared/interfaces/repositorio.interface";
+import { IPaginaFormulario } from "../shared/interfaces/pagina.ceate.interface";
 import { ContatoRepositoryLocalStorage } from "./repositories/contato.repository.local-storage";
 
 export class ContatoPaginaCadastro implements IPaginaHTML, IPaginaFormulario

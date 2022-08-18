@@ -1,5 +1,5 @@
-import { IRepositorioSerializavel } from "../../interfaces/repositorio-serializavel.interface";
-import { IRepositorio } from "../../interfaces/repositorio.interface";
+import { IRepositorioSerializavel } from "../../shared/interfaces/repositorio-serializavel.interface";
+import { IRepositorio } from "../../shared/interfaces/repositorio.interface";
 import { Compromisso } from "../models/compromisso.model";
 
 export class CompromissoRepositoryLocalStorage implements IRepositorio<Compromisso>, IRepositorioSerializavel 

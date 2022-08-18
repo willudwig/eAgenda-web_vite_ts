@@ -1,7 +1,7 @@
 import { Compromisso } from "./models/compromisso.model";
-import { IPageList } from "../interfaces/pagina.list.inteface";
-import { IPaginaHTML } from "../interfaces/pagina.html.interface";
-import { IRepositorio } from "../interfaces/repositorio.interface";
+import { IPageList } from "../shared/interfaces/pagina.list.inteface";
+import { IPaginaHTML } from "../shared/interfaces/pagina.html.interface";
+import { IRepositorio } from "../shared/interfaces/repositorio.interface";
 import { CompromissoRepositoryLocalStorage } from "./repositories/compromisso.repository.local-storage";
 
 class CompromissoPageList implements IPaginaHTML, IPageList {
