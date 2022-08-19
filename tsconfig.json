@@ -6,6 +6,7 @@
     "lib": ["ESNext", "DOM"],
     "moduleResolution": "Node",
     "strict": true,
+    "strictPropertyInitialization": false,             /* Check for class properties that are declared but not set in the constructor. */
     "sourceMap": true,
     "resolveJsonModule": true,
     "isolatedModules": false,
@@ -15,10 +16,7 @@
     "noUnusedParameters": true,
     "noImplicitReturns": true,
     "skipLibCheck": true,
-
-   //"outDir": "./dist",                                   /* Specify an output folder for all emitted files. */
     "forceConsistentCasingInFileNames": true,            /* Ensure that casing is correct in imports. */
-    "strictPropertyInitialization": false,             /* Check for class properties that are declared but not set in the constructor. */
   },
   "include": ["src"]
 }
