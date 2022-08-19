@@ -17,4 +17,4 @@ class Index implements IPaginaHTML{
 
 }
 
-new Index ();
+new Index();
